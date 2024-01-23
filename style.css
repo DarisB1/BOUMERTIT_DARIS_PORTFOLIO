@@ -28,10 +28,12 @@ body {
 }
 
 .rectangle1 {
+  display: flex;
   width: 225px;
   height: 4px;
   background-color: #4EE1A0;
-  margin: 0 0 20px 0;
+  position: fixed;
+  left: 150px;
   justify-content: center;
 }
 
@@ -77,6 +79,7 @@ body {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
+  margin-top: 24px;
 }
 
 .years {
@@ -239,11 +242,11 @@ margin: 20px;
   }
   
   .rectangle1 {
-    display: block;
+    display: flex;
     width: 225px;
     height: 4px;
     background-color: #4EE1A0;
-    margin: auto;
+    margin: 0 0 20px 0;
     justify-content: center;
   }
   
